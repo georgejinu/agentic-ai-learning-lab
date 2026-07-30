@@ -4,50 +4,47 @@ A hands-on learning path for building agentic AI systems — from LLM fundamenta
 
 ## Roadmap
 
-### 1. Foundations
-- [ ] LLM basics: tokens, context windows, sampling params
-- [ ] Prompting techniques: zero/few-shot, chain-of-thought, structured output
-- [ ] Working with an LLM API (Anthropic/OpenAI SDK basics)
+### Week 1 — Foundations
+- [ ] Day 1: Orchestrator/worker pattern (`week1-foundations/day1-orchestrator-worker/`)
+- [ ] Day 2: Tool calling (`week1-foundations/day2-tool-calling/`)
+- [ ] Day 3: Context engineering (`week1-foundations/day3-context-engineering/`)
+- [ ] Day 4: ReAct & reflection (`week1-foundations/day4-react-reflection/`)
+- [ ] Day 5: Guardrails & evals (`week1-foundations/day5-guardrails-evals/`)
 
-### 2. Tool Use & Function Calling
-- [ ] Defining tools/functions for an LLM to call
-- [ ] Handling tool-call loops (request → execute → return result)
-- [ ] Error handling and retries in tool execution
+### Week 2 — Vertex AI & Gemini
+- [ ] Building agentic workflows on Vertex AI / Gemini (`week2-vertex-gemini/`)
 
-### 3. Retrieval-Augmented Generation (RAG)
-- [ ] Embeddings and vector stores
-- [ ] Chunking strategies
-- [ ] Building a basic RAG pipeline
-- [ ] Evaluating retrieval quality
+### Week 3 — LangGraph
+- [ ] Graph-based agent orchestration with LangGraph (`week3-langgraph/`)
 
-### 4. Memory & State
-- [ ] Short-term (conversation) memory
-- [ ] Long-term memory (persisted facts/summaries)
-- [ ] Session/state management across turns
+### Week 4 — Production
+- [ ] Deployment, observability, and operating agents in production (`week4-production/`)
 
-### 5. Agent Frameworks
-- [ ] Build a minimal agent loop from scratch (no framework)
-- [ ] Explore an existing framework (e.g. LangGraph, Claude Agent SDK)
-- [ ] Compare tradeoffs: control vs. convenience
+### Week 5 — Applied Build
+- [ ] Capstone project applying skills from prior weeks (`week5-applied-build/`)
 
-### 6. Multi-Agent Systems
-- [ ] Agent-to-agent communication patterns
-- [ ] Orchestrator/worker architectures
-- [ ] Parallel vs. sequential task decomposition
-
-### 7. Evaluation & Safety
-- [ ] Building eval sets for agent behavior
-- [ ] Guardrails and input/output validation
-- [ ] Handling failure modes (hallucination, infinite loops, runaway costs)
-
-### 8. Deployment
-- [ ] Packaging an agent as a service
-- [ ] Observability: logging, tracing agent decisions
-- [ ] Cost and latency optimization
+### Week 6 — Leadership
+- [ ] Leading agentic AI adoption and strategy (`week6-leadership/`)
 
 ## Structure
 
-Each module will live in its own folder with runnable examples and notes as the lab progresses.
+```
+agentic-ai-learning-lab/
+├── README.md
+├── week1-foundations/
+│   ├── day1-orchestrator-worker/
+│   ├── day2-tool-calling/
+│   ├── day3-context-engineering/
+│   ├── day4-react-reflection/
+│   └── day5-guardrails-evals/
+├── week2-vertex-gemini/
+├── week3-langgraph/
+├── week4-production/
+├── week5-applied-build/
+└── week6-leadership/
+```
+
+Each day/week folder holds notes, write-ups, and runnable code for that topic.
 
 ## Status
 
