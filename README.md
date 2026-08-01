@@ -5,7 +5,7 @@ A hands-on learning path for building agentic AI systems — from LLM fundamenta
 ## Roadmap
 
 ### Week 1 — Foundations
-- [ ] Day 1: Orchestrator/worker pattern (`week1-foundations/day1-orchestrator-worker/`)
+- [x] Day 1: Orchestrator/worker pattern (`week1-foundations/day1-orchestrator-worker/`)
 - [ ] Day 2: Tool calling (`week1-foundations/day2-tool-calling/`)
 - [ ] Day 3: Context engineering (`week1-foundations/day3-context-engineering/`)
 - [ ] Day 4: ReAct & reflection (`week1-foundations/day4-react-reflection/`)
@@ -46,6 +46,17 @@ agentic-ai-learning-lab/
 
 Each day/week folder holds notes, write-ups, and runnable code for that topic.
 
+Runnable demos share one LLM client, [`common/llm.py`](common/llm.py) (Vertex
+AI Gemini). Setup:
+
+```
+python -m venv .venv
+.venv/Scripts/pip install -r requirements.txt   # .venv/bin/pip on macOS/Linux
+cp .env.example .env                            # fill in GOOGLE_CLOUD_PROJECT
+```
+
 ## Status
 
-🚧 Just getting started.
+🚧 In progress — Day 1 (orchestrator-workers) and the LangGraph workflow
+patterns in `week3-langgraph/` are implemented; the rest of the roadmap is
+still ahead.

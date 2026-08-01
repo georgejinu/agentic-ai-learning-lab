@@ -1,0 +1,88 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "justMyCode": true
+        },
+        {
+            "name": "Pattern 1: Prompt Chaining",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/week3-langgraph/01-prompt-chaining/chaining_demo.py",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["a dark mode toggle in settings"],
+            "justMyCode": true
+        },
+        {
+            "name": "Pattern 2: Routing",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/week3-langgraph/02-routing/routing_demo.py",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["My internet keeps dropping every 10 minutes"],
+            "justMyCode": true
+        },
+        {
+            "name": "Pattern 3a: Parallelization (Sectioning)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/week3-langgraph/03-parallelization/sectioning_demo.py",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["The new checkout flow is so much faster, but the confirmation email never arrived."],
+            "justMyCode": true
+        },
+        {
+            "name": "Pattern 3b: Parallelization (Voting)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/week3-langgraph/03-parallelization/voting_demo.py",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["Congratulations! You've won a free prize, click here now!!!"],
+            "justMyCode": true
+        },
+        {
+            "name": "Pattern 4: Orchestrator-Workers",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/week1-foundations/day1-orchestrator-worker/orchestrator_demo.py",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["the pros and cons of remote work"],
+            "justMyCode": true
+        },
+        {
+            "name": "Pattern 5: Evaluator-Optimizer",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/week3-langgraph/05-evaluator-optimizer/evaluator_optimizer_demo.py",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["a project management app"],
+            "justMyCode": true
+        }
+    ]
+}
