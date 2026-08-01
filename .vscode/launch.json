@@ -73,6 +73,18 @@
             "justMyCode": true
         },
         {
+            "name": "Day 2: Tool Calling (Google ADK)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/week1-foundations/day2-tool-calling/tool_calling_demo.py",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["Does plan PPO-100 need prior auth for J1745?"],
+            "justMyCode": true
+        },
+        {
             "name": "Pattern 5: Evaluator-Optimizer",
             "type": "debugpy",
             "request": "launch",
