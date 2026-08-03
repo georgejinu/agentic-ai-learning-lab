@@ -85,6 +85,18 @@
             "justMyCode": true
         },
         {
+            "name": "Day 3: Context Engineering",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/week1-foundations/day3-context-engineering/context_engineering_demo.py",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["Does PPO-100 need prior auth for J1745?"],
+            "justMyCode": true
+        },
+        {
             "name": "Pattern 5: Evaluator-Optimizer",
             "type": "debugpy",
             "request": "launch",

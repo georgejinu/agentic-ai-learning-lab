@@ -2,5 +2,6 @@ langgraph
 langchain-google-genai
 google-cloud-aiplatform
 google-adk
+google-genai
 opentelemetry-exporter-otlp-proto-http==1.42.1
 python-dotenv
